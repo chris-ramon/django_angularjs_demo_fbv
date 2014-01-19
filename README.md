@@ -1,10 +1,9 @@
 # CRUD Demo app
-=========================
 
 Simple demo app how to integrate Django + AngularJS using Django Rest Framework
 and function based views.
 
-### Running BackEnd
+### Running backend
 ``` bash
 git clone git@github.com:chris-ramon/django_angularjs_demo_fbv.git
 
@@ -16,7 +15,7 @@ pip install -r requirements.txt
 
 ```
 
-### Running FrontEnd
+### Running frontend
 ``` bash
 cd django_angularjs_demo_fbv/frontend/
 npm install

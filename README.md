@@ -23,3 +23,4 @@ bower install
 grunt serve
 
 ```
+Visit 127.0.0.1:9000

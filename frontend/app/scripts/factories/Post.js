@@ -1,0 +1,1 @@
+angular.module('frontendApp').factory('Post', function($resource) {  return $resource('http://127.0.0.1:8000/posts/:id', {id: '@id'}, {    query: {method: 'GET', isArray: false },    update: {method: 'PUT'}  });});

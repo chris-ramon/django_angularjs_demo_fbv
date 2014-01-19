@@ -1,0 +1,1 @@
+from rest_framework import serializers, paginationfrom demo_app.models import Postclass PostSerializer(serializers.ModelSerializer):    class Meta:        model = Post        fields = ('id', 'title', 'body')class PaginatedPostSerializer(pagination.PaginationSerializer):    class Meta:        object_serializer_class = PostSerializer
